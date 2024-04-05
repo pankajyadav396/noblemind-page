@@ -469,6 +469,10 @@ textarea {
   animation: spin89345 1s linear infinite;
 }
 
+.logo {
+  max-width: 221px;
+}
+
 /* ==========================ellipse==================== */
 .ellipse1 {
   bottom: -60px;
@@ -596,10 +600,6 @@ textarea {
     height: 527px;
     width: 100%;
     object-fit: initial;
-  }
-
-  .logo {
-    max-width: 221px;
   }
 
   .home {
