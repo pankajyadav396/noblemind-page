@@ -40,17 +40,17 @@ const Footer = () => {
                                 </ul>
                                 <ul className=' d-flex gap-sm-3 gap-2 flex-column '>
                                     <li className=' ff-outfit fw-semibold list-unstyled color-white1 lh-24 fs-sm'>Legal</li>
-                                    <li>
-                                        <a href="#home" className=' text-decoration-none list-unstyled ff-exo footer-links fw-normal color-white1 opacity-75 lh-24 fs-sm'>Term & Conduction</a>
+                                    <li
+                                        className=' cursor-pointer text-decoration-none list-unstyled ff-exo footer-links fw-normal color-white1 opacity-75 lh-24 fs-sm'>Term & Conduction
                                     </li>
-                                    <li>
-                                        <a href="#aboutus" className=' text-decoration-none list-unstyled ff-exo footer-links  fw-normal color-white1 opacity-75 lh-24 fs-sm'>Privacy Policy</a>
+                                    <li
+                                        className=' cursor-pointer text-decoration-none list-unstyled ff-exo footer-links  fw-normal color-white1 opacity-75 lh-24 fs-sm'>Privacy Policy
                                     </li>
                                     <li>
                                         <a href="#services" className=' text-decoration-none list-unstyled ff-exo footer-links  fw-normal color-white1 opacity-75 lh-24 fs-sm'>Contact</a>
                                     </li>
                                     <li>
-                                        <a href="#choose" className=' text-decoration-none list-unstyled ff-exo footer-links  fw-normal color-white1 opacity-75 lh-24 fs-sm'>(629) 555-0129</a>
+                                        <a href="tel:(629)555-0129" className=' cursor-pointer text-decoration-none list-unstyled ff-exo footer-links  fw-normal color-white1 opacity-75 lh-24 fs-sm'>(629) 555-0129</a>
                                     </li>
                                 </ul>
                             </div>
