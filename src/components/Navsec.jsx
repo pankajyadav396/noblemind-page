@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/images/png/logo.png'
+import logo from '../assets/images/webp/logo.webp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Commonbtn from './common/Commonbtn';
 const Navsec = () => {

@@ -598,6 +598,10 @@ textarea {
     object-fit: initial;
   }
 
+  .logo {
+    max-width: 221px;
+  }
+
   .home {
     color: var(--color-black2);
   }
