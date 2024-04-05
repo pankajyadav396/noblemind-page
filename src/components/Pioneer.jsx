@@ -27,7 +27,7 @@ const Pioneer = () => {
                         </div>
                     </div>
                 </div>
-                <img src={ellipse} alt="image" className=' position-absolute end-0 mb-5 bottom-0 me-5' />
+                <img src={ellipse} alt="image" className=' position-absolute d-none d-md-block end-0 mb-5 bottom-0 me-5' />
             </div>
         </>
     )

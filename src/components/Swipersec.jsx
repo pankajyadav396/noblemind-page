@@ -31,7 +31,7 @@ const Swipersec = () => {
     return (
         <>
             <div className='pt-sm-5 pb-5 position-relative' id='choose'>
-                <img src={ellipse} alt="imge" className=' position-absolute top-0 start-0 ms-5 mt-5' />
+                <img src={ellipse} alt="imge" className=' position-absolute top-0 d-none d-sm-block start-0 ms-5 mt-5' />
                 <img src={ellipse} alt="imge" className=' position-absolute bottom-0 end-0 me-5 mb-5 d-none d-xxl-block' />
                 <div className='container max-w-1140'>
                     <div className=' d-flex justify-content-center align-items-center gap-2'>

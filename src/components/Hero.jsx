@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <>
             <div className='bg-header d-flex flex-column position-relative' id='home'>
-                <img src={ellipse} alt="image" className=' position-absolute start-0 ellipse1 ms-4' />
+                <img src={ellipse} alt="image" className=' position-absolute d-none d-sm-block start-0 ellipse1 ms-4' />
                 <Navsec />
                 <div className=' container-lg max-w-1140 h-100 flex-grow-1 d-flex flex-column align-items-start justify-content-center'>
                     <div className=' d-flex align-items-center gap-2'>

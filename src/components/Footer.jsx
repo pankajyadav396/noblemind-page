@@ -22,7 +22,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=' col-sm-6 d-flex align-items-sm-end justify-content-sm-end mt-4 mt-sm-0'>
+                            <div className=' col-sm-6 d-flex gap-5 gap-sm-4 gap-md-5 align-items-sm-end justify-content-sm-end mt-4 mt-sm-0'>
                                 <ul className=' d-flex gap-sm-3 gap-2 flex-column p-0'>
                                     <li className=' ff-outfit fw-semibold list-unstyled color-white1 lh-24 fs-sm'>Maine</li>
                                     <li>

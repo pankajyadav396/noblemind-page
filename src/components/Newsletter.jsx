@@ -2,8 +2,8 @@ import ellipse from "../assets/images/png/ellipse.png"
 const Newsletter = () => {
     return (
         <>
-            <div className=' position-relative'>
-                <img src={ellipse} alt="image" className=' position-absolute top-0  start-0 ms-4' />
+            <div className=' position-relative px-sm-3'>
+                <img src={ellipse} alt="image" className=' position-absolute top-0 d-none d-sm-block start-0 ms-4' />
 
                 <div className=' container max-w-1140 bg-news'>
                     <h1 className=' mt-2 mb-0 fw-light color-white1 mb-3 ff-outfit fs-lg text-center'>Subscribe to our <span className="fw-semibold">Newsletter!</span></h1>

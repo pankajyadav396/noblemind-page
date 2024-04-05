@@ -63,7 +63,7 @@ const Formsec = () => {
                         <div className='col-md-6 col-sm-11 pe-lg-5 pe-3'>
                             <form className="registration-form" onSubmit={handleSubmit}>
                                 <h1 className=' mt-2 mb-0 fw-semibold text-center text-md-start color-black1 mb-3 ff-outfit fs-lg'>Contact <span className="fw-light"> Us</span></h1>
-                                <div className="d-flex flex-400-column gap-3 mb-3 flex-sm-row form-gap w-100">
+                                <div className="d-flex flex-400-column gap-md-2 gap-lg-3 gap-3 mb-3 flex-sm-row form-gap w-100">
                                     <div className="form-group position-relative d-flex flex-column">
                                         <label htmlFor="name" className="color-black2 ff-exo mb-1 fs-sm">Name</label>
                                         <input

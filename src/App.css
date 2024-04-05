@@ -394,7 +394,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .input-news {
@@ -509,6 +509,10 @@ textarea {
 }
 
 @media (min-width:576px) {
+  .bg-news {
+    border-radius: 20px;
+  }
+
   .form-group {
     width: 50%;
   }
