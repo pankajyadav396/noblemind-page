@@ -469,7 +469,7 @@ textarea {
 }
 
 .logo {
-  max-width: 221px;
+  max-width: 151px;
 }
 
 /* ==========================ellipse==================== */
@@ -511,7 +511,9 @@ textarea {
   .bg-news {
     border-radius: 20px;
   }
-
+.logo{
+  max-width: 221px;
+}
   .bg-header {
     min-height: 100vh;
   }

@@ -14,7 +14,7 @@ const Newsletter = () => {
                     </form>
                 </div>
             </div>
-        </>
+        </> 
     )
 }
 
