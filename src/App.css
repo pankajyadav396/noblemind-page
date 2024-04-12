@@ -19,9 +19,8 @@
   --fs-md1: 16px;
   --fs-md2: 18px;
   --fs-md3: 22px;
-  --fs-lg: 32px;
-  --fs-xl: 33px;
-  --fs-xxl: 70.49px;
+  --fs-lg: 30px;
+  --fs-xl: 32px;
 
   /* color */
   --color-white1: #FDFDFF;
@@ -274,7 +273,7 @@
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 600px;
 }
 
 /* =========================================swiper==================================== */
@@ -511,6 +510,10 @@ textarea {
 @media (min-width:576px) {
   .bg-news {
     border-radius: 20px;
+  }
+
+  .bg-header {
+    min-height: 100vh;
   }
 
   .form-group {

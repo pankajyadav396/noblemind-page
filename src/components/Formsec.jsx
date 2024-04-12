@@ -58,7 +58,7 @@ const Formsec = () => {
     return (
         <>
             <div className='d-flex pb-5 pt-md-5 mt-lg-5' id="services">
-                <div className='container-lg max-w-1140 align-items-center d-flex flex-grow-1 justify-content-center'>
+                <div data-aos="fade-up" className='container-lg max-w-1140 align-items-center d-flex flex-grow-1 justify-content-center'>
                     <div className='row justify-content-center'>
                         <div className='col-md-6 col-sm-11 pe-lg-5 pe-3'>
                             <form className="registration-form" onSubmit={handleSubmit}>

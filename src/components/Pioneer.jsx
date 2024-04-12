@@ -7,7 +7,7 @@ const Pioneer = () => {
     return (
         <>
             <div className='py-5 mt-md-5 position-relative' id='aboutus'>
-                <div className=' container-lg pt-lg-5 max-w-1140 '>
+                <div data-aos="fade-up" className=' container-lg pt-lg-5 max-w-1140 '>
                     <div className=' row align-items-center justify-content-center'>
                         <div className='col-md-6 col-sm-10 d-flex align-items-center justify-content-center'>
                             <img src={image} alt="img" className=' w-100 max-w-544' />

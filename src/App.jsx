@@ -10,7 +10,19 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Backtotop from './components/Backtotop';
 import Preloader from './components/Preloader';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 2000,
+      }
+    );
+  })
+
   return (
     <>
       <Preloader />
