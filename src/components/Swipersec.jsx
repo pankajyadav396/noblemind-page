@@ -54,7 +54,7 @@ const Swipersec = () => {
                         {
                             array.map((obj, index) => {
                                 return (
-                                    <SwiperSlide data-aos="zoom-in">
+                                    <SwiperSlide>
                                         <div className=' swiper-card '>
                                             <div className='mb-1'>{obj.svg}</div>
                                             <p className=' color-black1 mb-0 mt-2 fs-sm2 ff-outfit'>{obj.title}</p>
